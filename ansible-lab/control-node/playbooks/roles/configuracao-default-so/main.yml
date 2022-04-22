@@ -1,0 +1,8 @@
+- name: upgrade packages
+  yum:
+    name: '*'
+    state: latest
+-name: git install
+  yum:
+    name: git
+    state: latest
