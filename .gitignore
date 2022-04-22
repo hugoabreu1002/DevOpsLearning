@@ -1,2 +1,4 @@
 **/.vagrant/*
 vagrand-lab/html*
+ansible-lab/app01/provision.sh
+ansible-lab/db01/provision.sh
