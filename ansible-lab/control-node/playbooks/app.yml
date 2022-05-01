@@ -29,6 +29,10 @@
       yum:
         name: java-1.8.0-openjdk
         state: latest
+    - name: install java-devel           
+      yum:
+        name: java-devel
+        state: latest
     - name: Dir app creation
       file:
         path: /opt/notes
@@ -54,7 +58,7 @@
         src: application.properties
         dest: /opt/notes/src/main/resources/application.properties
     - name: Generate app package
-      command: /opt/apache-maven-3.1.0/bin/mvn -f /opt/notes/pom.xml package
+      command: /opt/apache-maven-3.1.0/bin/mvn -f /opt/notes/pom.xml package -Dmaven.test.skip=true
       become_user: app
     - name: Register package version
       shell:

@@ -11,3 +11,9 @@ cat <<EOT >> /etc/hosts
 EOT
 
 ansible-galaxy install geerlingguy.mysql
+
+cat <<EOT >> /etc/ansible/hosts
+control-node
+app01
+db01
+EOT
