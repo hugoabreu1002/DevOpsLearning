@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#! /usr/bin/bash
 
 # instalar sonar
 useradd sonar

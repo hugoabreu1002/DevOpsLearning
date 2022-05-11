@@ -13,3 +13,7 @@
 ### Resume
 
 > vagrant global-status | awk '/saved/{print $1}' | xargs -r -d '\n' -n 1 -- vagrant resume
+
+### Sonarqube Token
+
+> 8d824066eee6c8a327b4cd6d3a45f583dcffbac5
