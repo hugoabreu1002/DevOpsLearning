@@ -17,3 +17,7 @@
 ### Sonarqube Token
 
 > 8d824066eee6c8a327b4cd6d3a45f583dcffbac5
+
+### nexus jenkins
+jenkins
+jenkins
